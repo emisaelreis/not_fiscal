@@ -1,0 +1,13 @@
+# CARTA DE CORREÇÃO
+
+Para reduzir o tamanho final do arquivo XML da NF-e alguns cuidados de programação
+deverão ser assumidos:
+
+-não incluir "zeros não significativos" para campos numéricos;
+-não incluir "espaços" no início ou no final de campos numéricos e alfanuméricos;
+-não incluir comentários no arquivo XML;
+-não incluir anotação e documentação no arquivo XML (TAG annotation e TAG
+documentation);
+-não incluir caracteres de formatação no arquivo XML ("line-feed", "carriage return", "tab",
+caractere de "espaço" entre as TAGs);
+não incluir prefixo no namespace das tags de NFe.
