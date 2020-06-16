@@ -11,3 +11,44 @@ documentation);
 -não incluir caracteres de formatação no arquivo XML ("line-feed", "carriage return", "tab",
 caractere de "espaço" entre as TAGs);
 não incluir prefixo no namespace das tags de NFe.
+
+
+# Legislação Tributária
+# Padrões de preenchimento XML
+# CFOP
+# Ato COTEPE
+# NCM
+# Tabel a MDIC
+# Tributo: ICMS
+# Tributo: ISSQN
+
+
+Campos não obrigatórios do Schema que não possuam conteúdo terão suas tags
+suprimidas no arquivo XML.
+-Máscara de números decimais e datas estão definidas no Schema XML.
+-Nos campos numéricos inteiro, não incluir a vírgula ou ponto decimal.
+-Nos campos numéricos com casas decimais, utilizar o “ponto decimal” na separação da
+parte inteira.
+
+#A aplicação do contribuinte não poderá permitir a geração de mensagem com tamanho superior a 500 KB.
+# Prazo de cancelamento para nfe
+# Web Service – NfeAutorizacao ............................................................................. 29
+# Web Service – NfeRetAutorizacao ....................................................................... 35
+# Web Service – RecepcaoEvento – Cancelamento ............................................... 41
+# Web Service – NfeInutilizacao .............................................................................. 49
+# Web Service – NfeConsultaProtocolo ................................................................... 55
+# Web Service – NfeStatusServico .......................................................................... 60
+# Web Service – NfeConsultaCadastro ................................................................... 64
+# Web Service – RecepcaoEvento – Carta de Correção ......................................... 70
+# Web Service – RecepcaoEvento – Manifestação do Destinatário ................................80
+# Web Service – RecepcaoEvento – Evento Prévio de Emissão em Contingência (EPEC) da NF-e .........88
+# Web Service – NfeConsultaDest .......................................................................104
+# Web Service – NfeDownloadNF .........................................................................112
+# Web Services – Informações Adicionais ...............................................................118
+# Uso da SVC Pela Empresa .............................................................................156
+# Anexo I – Leiaute da NF-e ...........................................................................174
+
+# DANFE ...............................................................................................136
+
+
+
